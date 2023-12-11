@@ -1,7 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-export default function SliderContent({ activeIndex, sliderData }) {
+export default function SliderContent({
+  activeIndex,
+  sliderData,
+}: {
+  activeIndex: any;
+  sliderData: any;
+}) {
   return (
     <section>
       {sliderData.map(
