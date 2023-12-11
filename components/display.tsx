@@ -1,6 +1,6 @@
 import React from "react";
 
-const TeamCrew = ({ picture, name }) => {
+const TeamCrew = ({ picture, name }: { picture: any; name: any }) => {
   return (
     <>
       <div className="grid p-[2rem] text-center items-center justify-center">
